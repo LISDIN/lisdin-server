@@ -1,0 +1,3 @@
+[submodule "lisdin-ui"]
+	path = lisdin-ui
+	url = https://github.com/LISDIN/lisdin-ui.git
