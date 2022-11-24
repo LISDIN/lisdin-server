@@ -2,8 +2,8 @@ import path from 'path'
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
-import configRoutes from './routes/index'
 import compression from 'compression'
+import configRoutes from './routes/index'
 
 dotenv.config()
 
