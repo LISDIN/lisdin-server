@@ -12,7 +12,8 @@
     "build:server": "tsc",
     "start": "node ./build/src/app.js",
     "pre-commit": "lint-staged --quiet",
-    "lint": "eslint --fix --ext .ts,.json && prettier --write \"**/*.{ts,json}\""
+    "lint": "eslint --fix --ext .ts,.json && prettier --write \"**/*.{ts,json}\"",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "**/*.{ts,json}": [
